@@ -1,14 +1,8 @@
-install.packages("dplyr")
-install.packages("naniar")
-
 library(ggplot2)
-library(dplyr)
-library(naniar)
 require(ggplot2)
 
 rm(list=ls(all=TRUE))
 set.seed(1234)
-
 
 sals <- read.csv("LoosinCreek.csv", fill = FALSE, header = TRUE) 
 
